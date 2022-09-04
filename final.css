@@ -1,0 +1,367 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap');
+
+
+body {
+  background-color: black;
+  /* background-image: url("SL_043021_42650_12.jpg"); */
+}
+
+* {
+    margin: 0;
+    padding: 0px;
+}
+
+/*navbar*/
+
+
+.navigation {
+  background-color: black;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    position: fixed;
+    top: 0%;
+    width: 100%;
+    z-index: 1;
+  text-align: right;
+  }
+
+  .navigation {
+    float: right;
+    padding-right: 20px;
+  }
+
+  .navigation a{
+    text-decoration: none;
+    padding: 30px;
+    color: rgb(255, 255, 255);
+    font-family: Arial;
+    font-weight: 900;
+  }
+
+    .navigation a:hover{
+      text-decoration: underline;
+      color: #f5d88b;
+      
+    }
+
+
+    /*home page*/
+    .home{
+      
+      color: #d5bcad;
+      margin-top: 300px;
+      margin-left: -945px;
+    }
+
+    h1 {
+      font-family: 'Josefin Sans', sans-serif;
+      font-size: 80px;
+      margin-top: 15px;
+      margin-left: 236px;
+    }
+
+    h3 {
+      font-family: 'Josefin Sans', sans-serif;
+      font-size: 20px;
+      margin-left: 304px;
+      MARGIN-TOP: 11PX;
+    }
+
+    /*my photu*/
+  
+    .profile {
+      display: flex;
+      transform: translate(-50%, -50%);
+      margin-left: 1185px;
+      margin-top: -315px;
+      height: 500px;
+      width: 550px;
+    }
+
+    p {
+      color: aliceblue;
+    }
+
+    /*scroll*/
+
+    html {
+      scroll-behavior: smooth; /*make page scroll smooth */
+    }
+
+    section {
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      scroll-snap-align: start;
+    } 
+
+    .container {
+      scroll-snap-type: y mandatory;
+    }
+
+
+ 
+    .two {
+      background-color: #d5bcad;
+      margin-right: -39px;
+    }
+
+    .three {
+      background-color: black;
+      
+    }
+
+    .four {
+      background-color: #d5bcad;
+      margin-right: -69px;
+    }
+
+    /*about*/
+
+    h2 {
+      font-family: 'Josefin Sans', sans-serif;
+      color: black;
+      /*margin-top: 100px;
+      margin-left: -1140px;*/
+      float: right;
+      margin-left: 1193px;
+      background-color: transparent;
+      writing-mode:
+      vertical-rl;
+      margin-top: 104px;
+      font-size: 186px;
+    }
+
+    .my-info {
+      
+      margin-top: 97px;
+      margin-left: 85px;
+      margin-right: 340px;
+      font-size: 40px;
+      position: absolute;
+    }
+
+    .myinfo, p {
+      text-align: center;
+      color: black;
+    }
+
+/*projects*/
+
+    h4 {
+      font-family: 'Josefin Sans', sans-serif;
+      color: white;
+      font-size: 16px;
+      writing-mode: sideways-lr;
+      font-size: 150px;
+      margin-right: 1217px;
+      position: absolute;
+      margin-top: 80px;
+    }
+
+    .projects-info {
+      color: white;
+      font-size: 17px;
+      margin-top: 350px;
+      
+    }
+
+
+    /*contacts*/
+    h5 {
+      font-family: 'Josefin Sans', sans-serif;
+      font-size: 150px;
+      writing-mode: sideways-rl;
+      margin-left: 1230px;
+      margin-top: 100px;
+      position: absolute;
+      
+    }
+
+
+         /*icons*/
+
+    button {
+        background: none;
+        border-radius: .3em;  /*to curve button */
+        left: 40%;
+        position: absolute;
+        margin-top: 0%;
+        color: aliceblue;
+        padding: 5px 12px;
+        border-color: white;
+        cursor: pointer;
+        box-shadow: black 1.5px 1.5px;
+      }
+  
+  
+      a{
+        color: #d5bcad;
+        transition: color 0.2s;
+        margin: 5px 2px;
+      }
+      
+      a:hover{
+        color: #90502a;
+      }
+      
+      
+      .button1 {
+        top: 10px;
+        font-size: 27px;
+        position: relative;
+        margin-left: 397px;
+        margin-top: 23px;
+      }
+
+
+      /*contact form */
+
+      .bgcontact {
+        background: white;
+        margin-left: -300px;
+        margin-top: 100px;
+        display: flex;
+        padding: 102px 39px;
+      }
+
+      /* .anotherbg {
+        background: black;
+        padding: 0px 157px;
+        margin-top: 100px;
+        margin-bottom: 105px;
+      } */
+
+
+      input[type=text], select, textarea {
+        width: 40%;
+        justify-content: space-between;
+        border: none;
+        border-bottom: 1px solid #ccc;
+      } 
+
+
+      input[type=submit] {
+        color: black;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 50px;
+        cursor: pointer;
+      }
+
+      input[type=submit]:hover {
+        background-color: #90502a;
+      }
+
+      .container2 {
+        border-radius: 5px;
+        /* margin-right: 200px; */
+        margin-top: 100px; 
+        margin-left: 200px;
+      }
+
+      .contactbg {
+        background: green;
+        z-index: 1;
+        position: absolute;
+        height: calc(100% - 80%);
+      }
+
+      /* animation */
+
+      
+.reveal-text,
+.reveal-text::after {
+	animation-delay: var(--animation-delay, 2s);
+	animation-iteration-count: var(--iterations, 1);
+	animation-duration: var(--duration, 800ms);
+	animation-fill-mode: both;
+	animation-timing-function: cubic-bezier(0.0, 0.0, 0.2, 1);
+}
+
+.reveal-text {
+	--animation-delay: var(--delay, 0);
+	--animation-duration: var(--duration, 800ms);
+	--animation-iterations: var(--iterations, 1);
+	position: relative;
+	font-size: 10vw;
+	animation-name: clip-text;
+	color: #d5bcad;
+	white-space: nowrap;
+	cursor: default;
+	
+	/* after {
+		content: "";
+		position: absolute;
+		z-index: 999;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		background-color: #f2f98b;
+		transform: scaleX(0);
+		transform-origin: 0 50%;
+		pointer-events: none;
+		animation-name: text-revealer;
+	} */
+	
+}
+
+
+@keyframes clip-text {
+	from {
+		clip-path: inset(0 100% 0 0);
+	}
+	to {
+		clip-path: inset(0 0 0 0);
+	}
+}
+
+
+@keyframes text-revealer {
+	
+	0%, 50% {
+		transform-origin: 0 50%;
+	}
+	
+	60%, 100% {
+		transform-origin: 100% 50%;		
+	}
+
+	
+	60% {
+		transform: scaleX(1);
+	}
+	
+	100% {
+		transform: scaleX(0);
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
